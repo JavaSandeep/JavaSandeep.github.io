@@ -1,25 +1,101 @@
-.main-container-wrapper{background:#7dd9e8 ; min-width: 1002px; margin: 0px auto;}
+/*For Mobile*/
+/*Footer start*/
+.header-wrapper{background-color: #7dd9e8;}
 
-/*.header-wrapper{background: pink;}*/
-.header-top{background:#7dd9e8;}
-.header-top-container{background:#7dd9e8;width: 938px; margin: 0 auto; padding-top: 22px; padding-bottom:16px;}
-.logo{background: white; width: 223px; float: left;}
-.logo img{display: block;}
-.search-wrapper{background: #7dd9e8; width: 336px; padding: 20px 24px 9px 24px; float:left;}
-.user-profile{background: #7dd9e8; float: right;  direction: rtl;}
+.header-bottom-container{background:cornsilk;}
+.col3-left{background:brown;}
+.footer-wrapper {background: blue;}
+.search{
+	background:#7dd9e8;
+	padding: 20px 18px 10px;
+	width: 36.78038379530917%;
+}
+
+.user-info {
+    float: right;
+}
+/*mobile ends*/
+
+/*Start of new Section*/
+@media only screen and (min-width: 1024px) {
+	/*For Desktop*/
+/*Header*/
+.header-wrapper {
+    
+    width: 100%;
+}
+
+.header-top-container {
+    width: 938px;
+    margin: 0 auto;
+}
+
+.search{
+	background:#7dd9e8;
+	float:left;
+	padding: 20px 18px 10px;
+	width: 36.78038379530917%;
+}
+
+.header-bottom-container {
+        width: 938px;
+        margin: 0 auto;
+}
 
 
-.header-bottom{background: #f5f5f5; line-height: 38px;}
-.header-bottom-container{ width: 938px; margin: 0 auto;}
+.nav-left{
+    float: left;
+}
 
-.body-wrapper{background:#fff;padding: 30px;}
-.col3-left{background: #f5f5f5; width: 938px; margin: 0 auto;}
-.left-column{background: #f5f5f5; width: 194px; float: left;}
-.col3-right-container{float: right; width: 744px;}
-.main-content{float: left;background:#ffffff;width: 520px;padding:0px 24px;}
-.right-column{background: #f5f5f5; width: 176px; float: right;}
+.nav-right {
+    float: right;
+}
+
+/*body*/
+.col3-left {
+    width: 938px;
+    margin: 0 auto;
+}
+
+.col-left {
+    float: left;
+}
+
+.main {
+    float: right;
+}
+
+.col-left {
+    width: 194px;
+}
 
 
+.main-container {
+    float: left;
+    width: 520px;
+}
 
-.footer-wrapper{background:#727272;}
-.footer{width: 938px; margin: 0 auto;}
+.col-right {
+    float: right;
+    width: 176px;
+}
+
+/*Footer start*/
+.footer-wrapper {
+    background-color: #727272;
+}
+
+.footer-wrapper-container {
+    width: 938px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+}
