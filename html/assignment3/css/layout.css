@@ -1,0 +1,105 @@
+.header-top img{
+	padding:1.75em 0.5625em 1.3125em;
+}
+
+.main-menu{
+	float:right;
+	padding-top:1.6em;
+}
+
+.container{
+	width:73.125em;
+	margin:0px auto;
+}
+.body-main, .body-wrapper{
+	background:#f3f3f3;
+}
+
+.body-header{
+	padding-top:2.3125em;
+	padding-bottom:3.125em;
+	padding-left:0.5em;
+	background:#f3f3f3;
+}
+.body-header h2{float:left;color:#7f8c8c;padding-left:0.125em;padding-right:0.0625em;}
+
+.left-right-arrow{
+	float:right;
+}
+
+.left-right-arrow a{
+	height:40px;
+	width:40px;
+	background-image:url("../images/arrowleft.png");
+	padding-left:1.25em;
+}
+
+.original-image{
+	width:73.125em;
+	height:100%;
+}
+.image-view{
+	position:relative;
+}
+
+.button-size{
+	position:absolute;
+	height:60px;
+	width:50px;
+}
+.left-button{
+	left:0px;
+	top:45%;
+}
+.right-button{
+	right:0px;
+	top:45%;
+}
+
+
+
+.image-view-scroller{
+	width:14.8em;
+	margin:0px auto;
+}
+.image-view-scroller ul li{
+	float:left;
+	padding:0em 0.3125em;
+}
+.project{
+	padding-top:5.0625em;
+	padding-bottom:4em;
+}
+.project-description{
+	width:47.9375em;
+	float:left;
+}
+.project-details{
+	width:16.875em;
+	float:right;
+}
+.right-part{
+	width:7.25em;
+}
+
+
+/*FOOTER LAYOUT*/
+.footer-top {
+	padding-top:28px;
+	padding-bottom:45px;
+    width:73.125em;
+    margin: 0 auto;
+}
+
+.footer-bottom {
+    width:73.125em;
+    margin: 0 auto;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}

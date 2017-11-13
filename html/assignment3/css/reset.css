@@ -1,0 +1,20 @@
+*{
+	  margin: 0px;
+	  padding: 0px;
+	  font-family: "Open-Sans", Arial, Times, Helvetica;
+  }
+
+ul{list-style:none;}
+ul li a{text-decoration:none;}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
